@@ -4,3 +4,51 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul{
+    list-style:inside;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* utility */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.bt-white{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.bt-white:hover{
+    background-color: rgba(255, 255, 255, 0.556);
+}
