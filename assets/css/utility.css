@@ -91,3 +91,14 @@ h2{
 .bt-violet:hover{
     background-color: #9792e491;
 }
+
+.bt-violet2{
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.bt-violet2:hover{
+    background-color: #9792e491;
+}
