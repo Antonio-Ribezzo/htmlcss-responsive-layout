@@ -231,6 +231,35 @@ nav ul{
     margin-right: 10px;
 }
 
+/* section 6 */
+#section-6{
+    background-color: #9792e4;
+}
+
+.container-6{
+    padding: 40px 40px 40px 40px;
+}
+
+.container-6-1 h4, .container-6-1 .container-6-2 p, .container-6-1 .container-6-2 a, .container-6-1 .container-6-2 span{
+    margin: 20px 0;
+}
+.container-6-1 h4, .container-6-1 h5, .container-6-1 .container-6-2 p, .container-6-1 .container-6-2 span {
+    color: white;
+}
+
+.container-6-1 h4{
+    font-size: 30px;
+}
+
+.container-6-1 .container-6-2 h2{
+    font-size: 60px;
+    color: #fdc15f;
+}
+
+.container-6-1 .container-6-2 .underline{
+    color: white;
+}
+
 
 
 /*****************************
@@ -280,6 +309,21 @@ media query *******************************/
 
     #aboutus-img{
         flex-basis: calc(90% / 2);
+    }
+
+    /* section 6 */
+    .container-6{
+        margin: auto;
+        width: 80%;
+    }
+
+    .container-6-1 h4{
+        font-size: 45px;
+    }
+
+    .container-6-2{
+        margin: 0 auto;
+        width: 50%;
     }
 }
 
@@ -401,6 +445,18 @@ media query *******************************/
         margin: 0 auto;
         width: 70%;
         padding: 40px 0 40px 0;
+    }
+
+     /* section 6 */
+     .container-6{
+        margin: auto;
+        width: 50%;
+        padding: 40px 0 40px 0;
+    }
+
+    .container-6-2{
+        margin: 0 auto;
+        width: 40%;
     }
     
 }
