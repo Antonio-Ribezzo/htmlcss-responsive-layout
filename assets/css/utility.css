@@ -113,7 +113,7 @@ h2{
 }
 
 .bt-violet2:hover{
-    background-color: #9792e491;
+    background-color: #9792e4da;
 }
 
 .bt-white-violet{
@@ -123,6 +123,6 @@ h2{
     padding: 10px 30px;
 }
 
-.bt-violet2:hover{
+.bt-white-violet:hover{
     background-color: rgba(255, 255, 255, 0.52);
 }
