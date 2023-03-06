@@ -186,7 +186,50 @@ nav ul{
     margin-top: 20px;
 }
 
+/* section 5 */
+.container-5{
+    padding: 40px 40px 40px 40px;
+}
 
+#aboutus-text{
+    flex-basis: 100%;
+}
+
+#aboutus-text h2{
+    font-size: 30px;
+    color: #9792e4;
+}
+
+#aboutus-text p{
+    margin: 20px 0;
+}
+
+#aboutus-img{
+    flex-basis: 100%;
+}
+
+#aboutus-img img{
+    border-radius: 50%;
+    width: 60%;
+    margin: 20px 0;
+}
+
+#virgolette{
+    font-size: 60px;
+    color: #9792e4;
+    top: 10%;
+    right: 40%;
+}
+
+#aboutus-img h3{
+    color: #9792e4;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.fa-linkedin{
+    margin-right: 10px;
+}
 
 
 
@@ -227,6 +270,15 @@ media query *******************************/
 
     /* section 4 */
     .card-white{
+        flex-basis: calc(90% / 2);
+    }
+
+    /* section 5 */
+    #aboutus-text{
+        flex-basis: calc(90% / 2);
+    }
+
+    #aboutus-img{
         flex-basis: calc(90% / 2);
     }
 }
@@ -343,6 +395,14 @@ media query *******************************/
     .card-white{
         flex-basis: calc(90% / 3);
     }
+
+    /* section 5 */
+    .container-5{
+        margin: 0 auto;
+        width: 70%;
+        padding: 40px 0 40px 0;
+    }
+    
 }
 
 /* desktop over 1400px */
