@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Signika Negative', sans-serif;
 }
 
 ul{
@@ -18,8 +19,15 @@ a{
     color: white;
 }
 
+h2{
+    color: #1484fd;
+}
 
 /* utility */
+.text-center{
+    text-align: center;
+}
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -28,6 +36,10 @@ a{
 .flex-column{
     display: flex;
     flex-direction: column;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }
 
 .jc-sb{
@@ -42,6 +54,10 @@ a{
     align-items: center;
 }
 
+.ai-fstart{
+    align-items:flex-start ;
+}
+
 .bt-white{
     background-color: white;
     color: black;
@@ -51,4 +67,16 @@ a{
 
 .bt-white:hover{
     background-color: rgba(255, 255, 255, 0.556);
+}
+
+.bt-blue{
+    background-color: #1484fd;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.bt-blue:hover{
+    background-color: #1485fda9;
+
 }
