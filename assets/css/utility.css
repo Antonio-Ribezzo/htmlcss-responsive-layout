@@ -80,3 +80,14 @@ h2{
     background-color: #1485fda9;
 
 }
+
+.bt-violet{
+    background-color: #9792e4;
+    color: black;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.bt-violet:hover{
+    background-color: #9792e491;
+}
